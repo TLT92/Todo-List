@@ -8,6 +8,11 @@
     "prepare": "husky install",
     "build": "webpack"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TLT92/Todo-List.git"
